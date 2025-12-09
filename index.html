@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>College Admission Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="form-wrapper">
+    <h2>College Admission Form</h2>
+
+    <form>
+        <!-- Personal Information -->
+        <div class="section">
+            <h3>Personal Information</h3>
+
+            <div class="row">
+                <input type="text" placeholder="First Name" required>
+                <input type="text" placeholder="Last Name" required>
+            </div>
+
+            <div class="row">
+                <input type="date" required>
+                <div class="gender">
+                    <label><input type="radio" name="gender"> Male</label>
+                    <label><input type="radio" name="gender"> Female</label>
+                    <label><input type="radio" name="gender"> Other</label>
+                </div>
+            </div>
+        </div>
+
+        <!-- Academic Information -->
+        <div class="section">
+            <h3>Academic Details</h3>
+
+            <select required>
+                <option value="">Select Course</option>
+                <option>B.Sc Computer Science</option>
+                <option>BCA</option>
+                <option>B.Com</option>
+                <option>BBA</option>
+                <option>B.E Engineering</option>
+            </select>
+
+            <input type="number" placeholder="12th Percentage" required>
+        </div>
+
+        <!-- Contact Information -->
+        <div class="section">
+            <h3>Contact Information</h3>
+
+            <input type="email" placeholder="Email Address" required>
+            <input type="tel" placeholder="Phone Number" required>
+
+            <textarea placeholder="Address" required></textarea>
+        </div>
+
+        <button type="submit">Apply Now</button>
+    </form>
+</div>
+
+</body>
+</html>
