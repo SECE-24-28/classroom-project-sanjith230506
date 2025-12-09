@@ -1,0 +1,37 @@
+.grid{
+    display:grid;
+    margin:100px;
+    grid-template-columns: repeat(6,50px);
+    grid-template-rows: repeat(4,50px);
+}
+
+.item1{background-color:lightblue;}
+.item2{background-color:lightgreen;}
+.item3{background-color:lightpink;}
+.item4{background-color:lightgray;}
+.item5{background-color:lightcoral;}
+.item6{background-color:lightcyan;}
+.item7{background-color:lightgoldenrodyellow;}
+.item8{background-color:lightseagreen;}
+.item9{background-color:lightsalmon;}
+.item10{background-color:lightsteelblue;}
+.item11{background-color:lightyellow;}
+.item12{background-color:lightskyblue;}
+.item13{background-color:lightsteelblue;}
+.item14{background-color:lightgray;}
+.item15{background-color:lightcoral;}
+.item16{background-color:lightcyan;}
+.item17{background-color:lightgoldenrodyellow;}
+.item18{background-color:lightseagreen;}
+.item19{background-color:lightsalmon;}
+.item20{background-color:lightsteelblue;}
+.item21{background-color:lightyellow;}
+.item22{background-color:lightskyblue;}
+.item23{background-color:lightsteelblue;}
+.item24{background-color:lightgray;}
+.item25{background-color:lightcoral;}
+.item26{background-color:lightcyan;}
+.item27{background-color:lightgoldenrodyellow;}
+.item28{background-color:lightseagreen;}
+.item29{background-color:lightsalmon;}
+.item30{background-color:lightsteelblue;}
